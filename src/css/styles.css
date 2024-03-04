@@ -34,11 +34,11 @@ margin: 0 auto;
 }
 
 .input-text:focus {
-  border: 1px solid #4e75ff;
+  border: 1px solid #3522e4;
 }
 
 .btn {
-  background: #4e75ff;
+  background: #3522e4;
   border-radius: 8px;
   padding: 8px 16px;
   width: 75px;
@@ -50,7 +50,7 @@ margin: 0 auto;
  
 }
 .btn:hover {
-  background: #6c8cff;
+  background: #3522e4;
 }
 .input-text::placeholder {
     font-weight: 400;
@@ -138,7 +138,7 @@ color: #2e2f42;
   top: 0;
   bottom: 0;
   margin: auto;
-  border: 3px dotted #FF3D00;
+  border: 3px dotted #3522e4;
   border-style: solid solid dotted;
   width: 24px;
   height: 24px;
