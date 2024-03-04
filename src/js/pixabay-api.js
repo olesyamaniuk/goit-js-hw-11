@@ -12,7 +12,7 @@ export default function getImages(input){
     return fetch(LINK)
         .then(response => {
             if (!response.ok){
-                throw new Error(res.status)
+                throw new Error(response.status)
             }
             return response.json()
         })

@@ -39,7 +39,6 @@ form.addEventListener('submit', function handler(event){
     .catch(error => console.log(error))
     .finally(() => {
         load.style.display = 'none';
-        // list.style.marginTop = '20px';
     });
     input.value = '';
 });
